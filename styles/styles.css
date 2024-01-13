@@ -1,0 +1,75 @@
+body{
+    background-color: #210404;
+    color: #FBEDCB;
+    font-size: x-large;
+    font-family: 'Reem Kufi', sans-serif;
+}
+
+.main h1{
+    text-align: center;
+}
+
+.navbar{
+    background-color: #FBEDCB;
+    color: #210404;
+    text-align: right;
+    padding: 20px;
+}
+
+.navbar a{
+    margin-right: 100px;
+    text-decoration: none;
+    color: #210404;
+}
+
+.content{
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-left{
+    text-align: justify;
+    display: inline-block;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    display: inline;
+    float: left;
+}
+
+.content-right{
+    display: inline;
+    float: right;
+}
+
+.content-right img{
+    border-radius: 50%;
+    max-height: 500px;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+.social-icons {
+    padding-top: 50px;
+    margin-top: 20px;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.social-icons a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #FBEDCB;
+    font-size: xx-large;
+    margin-right: 100px;
+}
+
+footer{
+    background-color: #FBEDCB;
+    color: #210404;
+    text-align: left;
+    padding: 20px;
+}
