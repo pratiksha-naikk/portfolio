@@ -9,272 +9,278 @@
   <meta content="" name="description">
   <meta content="" name="keywords">
 
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
+  <!-- =======================================================
+  * Template Name: iPortfolio
+  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+  * Updated: Mar 17 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
 
 <body>
 
+  <!-- ======= Mobile nav toggle button ======= -->
+  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+
   <!-- ======= Header ======= -->
   <header id="header">
-    <div class="container">
+    <div class="d-flex flex-column">
 
-      <h1><a href="index.html">Pratiksha Naik</a></h1>
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> -->
-      <h2>Welcome to my <span>digital portfolio</span></h2>
-
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="nav-link active" href="#header">Home</a></li>
-          <li><a class="nav-link" href="#resume">Experience</a></li>
-          <li><a class="nav-link" href="#services">Projects</a></li>
-          <li><a class="nav-link" href="#contact">Contact</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-
-      <div class="social-links">
-        <a href="https://github.com/adiimated" class="github" target="_blank"><i class="bi bi-github"></i></a>
-        <a href="https://www.linkedin.com/in/pratiksha-naikk/" target="_blank" class="linkedin"><i class="bi bi-linkedin"></i></a>
-        <a href="Pratiksha_Naik_resume.pdf" target="_blank"><i class="fa fa-download"></i></a>
+      <div class="profile">
+        <img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle">
+        <h1 class="text-light"><a href="index.html">Pratiksha Naik</a></h1>
+        <div class="social-links mt-3 text-center">
+          <a href="https://github.com/adiimated" target="_blank" class="twitter"><i class="bx bxl-github"></i></a>
+          <a href="https://www.linkedin.com/in/pratiksha-naikk/" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        </div>
       </div>
 
+      <nav id="navbar" class="nav-menu navbar">
+        <ul>
+          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+          <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Experience</span></a></li>
+          <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Projects</span></a></li>
+          <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+        </ul>
+      </nav><!-- .nav-menu -->
     </div>
   </header><!-- End Header -->
 
-
-  <!-- ======= Resume Section ======= -->
-  <section id="resume" class="resume">
-    <div class="container">
-
-      <div class="section-title">
-        <h2>Resume</h2>
-        <p>EXPERIENCE</p>
-      </div>
-
-      <div class="row">
-        <div class="col-lg-6">
-
-          <h3 class="resume-title">Education</h3>
-          <div class="resume-item">
-            <h4>Master of Science in Engineering Science (Data Science)</h4>
-            <h5>August 2022 - February 2024</h5>
-            <p><em>University at Buffalo, The State University of New York</em></p>
-            <p>Relevant Coursework: Statistical Learning and Data Mining, Data Intensive Computing, Introduction to Machine Learning, Data Model Query Languages, Numerical Mathematics, Probability Theory, Time Series Analysis</p>
-          </div>
-          <div class="resume-item">
-            <h4>Bachelor of Engineering in Information Technology</h4>
-            <h5>August 2016 - October 2020</h5>
-            <p><em>University of Mumbai</em></p>
-            <p>Relevant Coursework: Artificial Intelligence, Data Mining and Business Intelligence, Big Data Analytics, Database Management System, Advanced Data Management Technology, Structured Programming</p>
-          </div>
-        </div>
-        <div class="col-lg-6">
-          <h3 class="resume-title">Professional Experience</h3>
-          <div class="resume-item">
-            <h4>Data Analyst Intern</h4>
-            <h5>August 2023 - December 2023</h5>
-            <p><em>Eitacies Inc. | Santa Clara, CA, United States</em></p>
-            <p>
-            <ul>
-              <li>Developed a virtual conference monitoring system to ensure professionalism and regulatory compliance, reducing non-compliance incidents by 34% in digital meeting spaces.</li>
-              <li>Pioneered development of a FLAN-T5 based tool for generating summaries of meetings, boosting user engagement insights by 12%.</li>
-              <li>Employed Computer Vision and Natural Language Processing libraries to analyze 100K+ images and text documents, improving content categorization by 17%.</li>
-              <li>Leveraged MongoDB to manage large datasets, efficiently handling over 2TB of data.</li>
-              <li>Crafted 10+ insightful and interactive visualizations in Tableau to improve client understanding and decision-making.</li>
-            </ul>
-            </p>
-          </div>
-          <div class="resume-item">
-            <h4>Business Intelligence Analyst</h4>
-            <h5>April 2021 - June 2022</h5>
-            <p><em>Jupiter Technic | Dombivli, MH, India</em></p>
-            <p>
-            <ul>
-              <li>Created and managed Python web scrapers utilizing BeautifulSoup and Selenium for market research, resulting in discovery of 15 new viable suppliers, revising strategic sourcing and market alignment.</li>
-              <li>Executed statistical analysis and data modeling in R and Python (Pandas, NumPy, SciPy), increasing demand forecast accuracy by 26%.</li>
-              <li>Utilized Excel (VBA scripting, Pivot Tables, What-If Analysis) for financial modeling, aiding in a 19% reduction in expenditures through strategic decision support.</li>
-              <li>Led a supply chain optimization project achieving a 15% improvement in inventory efficiency for sheet metal components, tools, and spares.</li>
-              <li>Crafted PowerPoint presentations and tailored Tableau dashboards for clients, leading to 8 additional clients engaging in follow-up projects within same fiscal year.</li>
-            </ul>
-            </p>
-          </div>
-
-          <div class="resume-item">
-            <h4>Data Processing Consultant</h4>
-            <h5>October 2020 - March 2022</h5>
-            <p><em>Ugam Solutions | Thane, MH, India</em></p>
-            <p>
-            <ul>
-              <li>Led collaborative efforts to process and assess market research data, tailoring insights to align with specific needs of 5+ clients.</li>
-              <li>Harnessed Python, SQL, and Alteryx for advanced algorithm development, accelerating query processing and enabling faster result delivery by 2 days on average.</li>
-              <li>Enhanced data accuracy and reduced processing time by 13% by employing Askia SAS for data management and analysis.</li>
-              <li>Efficiently managed and optimized databases handling over 8 million records in MySQL and PostgreSQL.</li>
-              <li>Drove a 2.7% sales increase for an international alcohol brand through demographic data analysis and strategic insight provision.</li>
-              <li>Presented complex data findings in 10+ high-stakes meetings, securing 2 long-term clients.</li>
-            </ul>
-            </p>
-          </div>
-
-          <div class="resume-item">
-            <h4>Data Analyst Trainee</h4>
-            <h5>September 2020 - October 2020</h5>
-            <p><em>MedTourEasy | Mumbai, MH, India</em></p>
-            <p>
-            <ul>
-              <li>Created a predictive model to identify potential blood donors, resulting in a 23% increase in donor recruitment.</li>
-              <li>Investigated historical blood donation data, optimizing blood collection campaigns, and reaching over 1000 donors.</li>
-              <li>Applied clustering algorithms to segment donor population, enabling targeted outreach and improved donor retention.</li>
-            </ul>
-            </p>
-          </div>
-
-          <div class="resume-item">
-            <h4>Data Science Intern</h4>
-            <h5>August 2020 - September 2020</h5>
-            <p><em>The Sparks Foundation | Mumbai, MH, India</em></p>
-            <p>
-            <ul>
-              <li>Applied various machine learning models,including Linear Regression,Random Forest,Support Vector Machines,and Neural Networks, in a data-driven prognostic framework, achieving a 84% accuracy in forecasting student performance.</li>
-            </ul>
-            </p>
-          </div>
-        </div>
-      </div>
-
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+    <div class="hero-container" data-aos="fade-in">
+      <h1>Pratiksha Naik</h1>
+      <p>Welcome to my Digital Portfolio</p>
     </div>
-  </section><!-- End Resume Section -->
+  </section><!-- End Hero -->
 
-  <!-- ======= Services Section ======= -->
-  <section id="services" class="services">
-    <div class="container">
+  <main id="main">
 
-      <div class="section-title">
-        <h2>Projects</h2>
-        <p>My Projects</p>
-      </div>
 
-      <div class="row">
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-          <div class="icon-box">
-            <div class="icon"><i class="bx bxl-dribbble"></i></div>
-            <h4><a href="https://flu-ence.netlify.app/">Fluence: Flu Shot Learning</a></h4>
-            <p>Fluence is a web application leveraging machine learning to predict H1N1 and seasonal flu vaccination status based on demographics, health behaviors, and opinions. </p>
-          </div>
+
+    <!-- ======= Resume Section ======= -->
+    <section id="resume" class="resume">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Experience</h2>
+          <p>I am Pratiksha Naik, a data science professional with extensive experience in data analysis, business intelligence, and data processing across various industries, skilled in Python, SQL, R, and machine learning, with a proven track record of delivering innovative solutions and insights that drive business improvement and efficiency.</p>
         </div>
 
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
-          <div class="icon-box">
-            <div class="icon"><i class="bx bx-file"></i></div>
-            <h4><a href="https://github.com/adiimated/Twitter-Data-Analysis-To-Identify-Urban-Issues">Twitter Data Analysis To Identify Urban Issues</a></h4>
-            <p>Analyzed Twitter data to identify and categorize urban issues in Mumbai, using machine learning algorithms to differentiate complaints from general tweets and visualize the most common problems faced by residents.</p>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
-          <div class="icon-box">
-            <div class="icon"><i class="bx bx-tachometer"></i></div>
-            <h4><a href="https://github.com/adiimated/Songalytics-Spotify-Data-Analysis">Songalytics: Spotify Data Analysis</a></h4>
-            <p>This project involves analyzing Spotify data to understand music trends and predict song popularity, leveraging data science techniques for insights into listener preferences.</p>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
-          <div class="icon-box">
-            <div class="icon"><i class="bx bx-world"></i></div>
-            <h4><a href="https://github.com/adiimated/BankMarketCapETL">Bank Market Capitalization ETL</a></h4>
-            <p>An ETL pipeline for extracting, transforming, and loading the world's largest banks' market capitalization data into a SQLite database and CSV format.</p>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
-          <div class="icon-box">
-            <div class="icon"><i class="bx bx-slideshow"></i></div>
-            <h4><a href="https://github.com/adiimated/24hourbackup">24 Hour Backup</a></h4>
-            <p>This Bash project creates a compressed backup archive of files modified in the last 24 hours from a specified directory to a chosen destination.</p>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
-          <div class="icon-box">
-            <div class="icon"><i class="bx bx-arch"></i></div>
-            <h4><a href="https://github.com/adiimated/Foodo">Foodo</a></h4>
-            <p>"Foodo" is a mobile app designed to facilitate food donations by connecting donors with volunteers for pick-up and delivery to NGOs, aiming to reduce hunger and food waste.</p>
-          </div>
-        </div>
-
-      </div>
-
-    </div>
-  </section><!-- End Services Section -->
-
-  <!-- ======= Contact Section ======= -->
-  <section id="contact" class="contact">
-    <div class="container">
-
-      <div class="section-title">
-        <h2>Contact</h2>
-        <p>Contact Me</p>
-      </div>
-
-      <div class="row mt-2">
-
-        <div class="col-md-6 mt-4 d-flex align-items-stretch">
-          <div class="info-box">
-            <i class="bx bx-envelope"></i>
-            <h3>Email Me</h3>
-            <p>pnaik7@buffalo.edu</p>
-          </div>
-        </div>
-
-      </div>
-
-      <form action="https://formspree.io/f/xnqenzog" method="post" role="form" class="php-email-form mt-4">
         <div class="row">
-          <div class="col-md-6 form-group">
-            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-          </div>
-          <div class="col-md-6 form-group mt-3 mt-md-0">
-            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-          </div>
-        </div>
-        <!-- <div class="form-group mt-3">
-          <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-        </div> -->
-        <div class="form-group mt-3">
-          <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-        </div>
-        <div class="my-3">
-          <div class="loading">Loading</div>
-          <div class="error-message"></div>
-          <div class="sent-message">Your message has been sent. Thank you!</div>
-        </div>
-        <div class="text-center"><button type="submit">Send Message</button></div>
-      </form>
+          <div class="col-lg-6" data-aos="fade-up">
 
-    </div>
-  </section><!-- End Contact Section -->
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>MS in Engineering Science (Data Science)</h4>
+              <h5>August 2022 - February 2024</h5>
+              <p><em>University at Buffalo, The State University of New York</em></p>
+              <p><u>Relevant Coursework:</u> Statistical Learning and Data Mining, Data Intensive Computing, Introduction to Machine Learning, Data Model Query Languages, Numerical Mathematics, Probability Theory, Time Series Analysis</p>
+            </div>
+            <div class="resume-item">
+              <h4>BE in Information Technology</h4>
+              <h5>August 2016 - October 2020</h5>
+              <p><em>University of Mumbai</em></p>
+              <p><u>Relevant Coursework:</u> Artificial Intelligence, Data Mining and Business Intelligence, Big Data Analytics, Database Management System, Advanced Data Management T echnology, Structured Programming</p>
+            </div>
+          </div>
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Professional Experience</h3>
+            <div class="resume-item">
+              <h4>Data Analyst Intern</h4>
+              <h5>August 2023 - December 2023</h5>
+              <p><em>Eitacies Inc | Santa Clara, CA, United States</em></p>
+              <ul>
+                <li>Developed a virtual conference monitoring system to ensure professionalism and regulatory compliance, reducing non-compliance incidents by 34% in digital meeting spaces.</li>
+                <li>Pioneered development of a FLAN-T5 based tool for generating summaries of meetings, boosting user engagement insights by 12%.</li>
+                <li>Employed Computer Vision and Natural Language Processing libraries to analyze 100K+ images and text documents, improving content categorization by 17%.</li>
+                <li>Leveraged MongoDB to manage large datasets, efficiently handling over 2TB of data.</li>
+                <li>Crafted 10+ insightful and interactive visualizations in Tableau to improve client understanding and decision-making.</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Business Intelligence Analyst</h4>
+              <h5>April 2021 – June 2022</h5>
+              <p><em>Jupiter Technic | Dombivli, MH, India</em></p>
+              <ul>
+                <li>Created and managed Python web scrapers utilizing BeautifulSoup and Selenium for market research, resulting in discovery of 15 new viable suppliers, revising strategic sourcing and market alignment.</li>
+                <li>Executed statistical analysis and data modeling in R and Python (Pandas, NumPy, SciPy), increasing demand forecast accuracy by 26%.</li>
+                <li>Utilized Excel (VBA scripting, Pivot Tables, What-If Analysis) for financial modeling, aiding in a 19% reduction in expenditures through strategic decision support.</li>
+                <li>Led a supply chain optimization project achieving a 15% improvement in inventory efficiency for sheet metal components, tools, and spares.</li>
+                <li>Crafted PowerPoint presentations and tailored Tableau dashboards for clients, leading to 8 additional clients engaging in follow-up projects within same fiscal year.</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Data Processing Consultant</h4>
+              <h5>October 2020 – March 2021</h5>
+              <p><em>Ugam Solutions (Now part of Merkle) | Thane, MH, India</em></p>
+              <ul>
+                <li>Led collaborative efforts to process and assess market research data, tailoring insights to align with specific needs of 5+ clients.</li>
+                <li>Harnessed Python, SQL, and Alteryx for advanced algorithm development, accelerating query processing and enabling faster result delivery by 2 days on average.</li>
+                <li>Enhanced data accuracy and reduced processing time by 13% by employing Askia SAS for data management and analysis.</li>
+                <li>Efficiently managed and optimized databases handling over 8 million records in MySQL and PostgreSQL.</li>
+                <li>Drove a 2.7% sales increase for an international alcohol brand through demographic data analysis and strategic insight provision.</li>
+                <li>Presented complex data findings in 10+ high-stakes meetings, securing 2 long-term clients.</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Data Analyst Trainee</h4>
+              <h5>September 2020 – October 2020</h5>
+              <p><em>MedTourEasy | Mumbai, MH, India</em></p>
+              <ul>
+                <li>Created a predictive model to identify potential blood donors, resulting in a 23% increase in donor recruitment.</li>
+                <li>Investigated historical blood donation data, optimizing blood collection campaigns, and reaching over 1000 donors.</li>
+                <li>Applied clustering algorithms to segment donor population, enabling targeted outreach and improved donor retention.</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Data Science Intern</h4>
+              <h5>August 2020 – September 2020</h5>
+              <p><em>The Sparks Foundation | Mumbai, MH, India</em></p>
+              <ul>
+                <li>Applied various machine learning models,including Linear Regression,Random Forest,Support Vector Machines,and Neural Networks, in a data-driven prognostic framework, achieving a 84% accuracy in forecasting student performance.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Resume Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Projects</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
+            <div class="icon"><i class="bi bi-hospital"></i></div>
+            <h4 class="title"><a href="https://flu-ence.netlify.app/" target="_blank">Fluence: Flu Shot Learning</a></h4>
+            <p class="description">Fluence is a web application leveraging machine learning to predict H1N1 and seasonal flu vaccination status based on demographics, health behaviors, and opinions.</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon"><i class="bi bi-twitter"></i></div>
+            <h4 class="title"><a href="https://github.com/adiimated/Twitter-Data-Analysis-To-Identify-Urban-Issues" target="_blank">Twitter Data Analysis To Identify Urban Issues</a></h4>
+            <p class="description">Analyzed Twitter data to identify and categorize urban issues in Mumbai, using machine learning algorithms to differentiate complaints from general tweets and visualize the most common problems faced by residents.</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon"><i class="bi bi-spotify"></i></div>
+            <h4 class="title"><a href="https://github.com/adiimated/Songalytics-Spotify-Data-Analysis" target="_blank">Songalytics: Spotify Data Analysis</a></h4>
+            <p class="description">This project involves analyzing Spotify data to understand music trends and predict song popularity, leveraging data science techniques for insights into listener preferences.</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
+            <div class="icon"><i class="bi bi-bank"></i></div>
+            <h4 class="title"><a href="https://github.com/adiimated/BankMarketCapETL" target="_blank">Bank Market Capitalization ETL</a></h4>
+            <p class="description">An ETL pipeline for extracting, transforming, and loading the world's largest banks' market capitalization data into a SQLite database and CSV format.</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
+            <div class="icon"><i class="bi bi-cloud-arrow-up-fill"></i></div>
+            <h4 class="title"><a href="https://github.com/adiimated/24hourbackup" target="_blank">24 Hour Backup</a></h4>
+            <p class="description">This Bash project creates a compressed backup archive of files modified in the last 24 hours from a specified directory to a chosen destination.</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
+            <div class="icon"><i class="bi bi-egg-fried"></i></div>
+            <h4 class="title"><a href="https://github.com/adiimated/Foodo" target="_blank">Foodo</a></h4>
+            <p class="description">"Foodo" is a mobile app designed to facilitate food donations by connecting donors with volunteers for pick-up and delivery to NGOs, aiming to reduce hunger and food waste.</p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+        </div>
+
+        <div class="row" data-aos="fade-in">
+
+          <div class="col-lg-5 d-flex align-items-stretch">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Location:</h4>
+                <p>Buffalo, New York</p>
+              </div>
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p>pnaik7@buffalo.edu</p>
+              </div>
+
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d93532.37758479932!2d-78.94701497500202!3d42.89633504218364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d3126152dfe5a1%3A0x982304a5181f8171!2sBuffalo%2C%20NY!5e0!3m2!1sen!2sus!4v1712118345051!5m2!1sen!2sus" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
+            </div>
+
+          </div>
+
+          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+            <form action="https://formspree.io/f/xnqenzog" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <label for="name">Your Name</label>
+                  <input type="text" name="name" class="form-control" id="name" required>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="name">Your Email</label>
+                  <input type="email" class="form-control" name="email" id="email" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="name">Message</label>
+                <textarea class="form-control" name="message" rows="10" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
 
